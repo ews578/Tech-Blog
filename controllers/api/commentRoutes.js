@@ -3,9 +3,11 @@ const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
+  console.log(req.body,req.session)
   try {
     const newComment = await Comment.create({
-      ...req.body,
+      body: req.body.comment,
+      blog_id: parseInt(req.body.blog_id),
       user_id: req.session.user_id,
     });
 
@@ -25,7 +27,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     });
 
     if (!commentData) {
-      res.status(404).json({ message: 'No project found with this id!' });
+      res.status(404).json({ message: 'Error!' });
       return;
     }
 
