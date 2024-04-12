@@ -1,17 +1,18 @@
 [
   {
-    "title": "Music Near Me",
-    "content": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "title": "That's What She Said ",
+    "content": "A blog for the ultimate 'The Office' fans"
+    
   },
+
   {
-    "title": "The Ultimate Tech Quiz",
-    "content": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "title": "Code of Honor",
+    "content": "A blog disccusion of success stories from web development students on their coding journey!"
+    
   },
   {
     "title": "Roll 'Em Up",
-    "content": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "content": "A blog for those passionate about burrito's and other tortilla wrapped culinary delights"
+    
   }
 ]
