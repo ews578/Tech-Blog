@@ -22,7 +22,7 @@
   https://github.com/ews578/Tech-Blog
   
   here is my link to my deployed application on Heroku
-
+  https://desolate-lowlands-29937-fc34c8976432.herokuapp.com/
 
   ## License
   ISC
